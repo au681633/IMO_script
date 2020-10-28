@@ -13,7 +13,7 @@ def gradient():
     yprime = y.diff(x)
     fprime = lambdify(x, yprime, 'numpy')
     f = lambdify(x, y, 'numpy')
-
+ # ok
     print(y)
     print(yprime)
 
